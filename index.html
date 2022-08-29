@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <TITLE> Faidra Anastasia Patsatzi</TITLE>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="Faidra Anastasia Patsatzi Agenda" />
+    <meta name="author" content="Faidra Anastasia Patsatzi" />
+    <meta name="keywords" content="Faidra Anastasia Patsatzi TUM" />
+
+    <link rel="stylesheet" href="styles/style.css" />
+    <!--<link rel="icon" href=" " -->
+    <link rel="stylesheet" href="https://use.typekit.net/qoj4gwp.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){window.dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'GA_MEASUREMENT_ID');
+    </script> -->
+
+</head>
+<body>
+
+    <!-- Upper Navigation Bar -->
+    <div id="nav_bar">
+        <a href="#home" class="bar-item left">HOME</a>
+        <a href="#education" class="bar-item right">EDUCATION</a>
+        <a href="#projects" class="bar-item right">PROJECTS</a>
+        <a href="#about" class="bar-item right">ABOUT</a>
+    </div>
+
+    <div class="page-content">
+
+        <!-- Homepage -->
+        <section  id="home">
+            <div class="container row" id="landing-container">
+            <div class="container column" id="particles-js"></div>
+                <script src="scripts/particles.js"></script>
+                <script src="scripts/app.js"></script>
+                <!--<img src="img/home.png" id="deco-sign">-->
+                <div class="container column" id="landing-text">
+                    <h2 class="title">FAIDRA ANASTASIA PATSATZI</h2>
+                    <p id="fader-app"></p>
+                </div>
+            </div>
+           <!--<a href="#about" class="arrow"></a>-->
+        </section>
+
+        <!-- About Page -->
+
+        <section id="about">
+            <div class="container row" id="about-container">
+                <div class="container column" id="about-text">
+                    <h1 class="subheading">About me</h1>
+                    <h2> First of all, thanks for visiting my website. </h2>
+                    <h2>
+                        My name is Faidra, I am 20 years old and I study electrical engineering and information technology
+                        at the Technical University of Munich. <!--My hobbies include playing the piano, jogging, snowboarding and travelling.-->
+                    </h2>
+                    <h2>
+                        For more information on my background and schoolwork, you can download my
+                        <a href="assets/cv_patsatzi.pdf" id="cv">CV</a>
+                        .
+                    </h2>
+                    <!--<h3>Scroll down for more</h3>-->
+                </div>
+                <div class="container columnn" id="picture-container">
+                    <img src="img/pic.jpg" id="profile-pic" />
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Education Page -->
+        <section class="container row" id="education">
+            <div class="container column" id="education-title">
+                <h1 class="subheading">EDUCATION</h1>
+            </div>
+            <div class="container column" id="university">
+                <img src="img/tum.svg" id="tum-logo" />
+                <h2>Technical University of Munich</h2>
+                <h3>B.Sc. Electrical Engineering and Information Technology</h3>
+                <p>5. Semester</p>
+                <p>Expected Graduation: August 2023</p>
+            </div>
+            <div class="container column" id="curriculum">
+                <h3>Relevant Coursework:</h3>
+                <ul>
+                    <li> Algorithms and Data Structures </li>
+                    <li> Digital Design </li>
+                    <li> Introduction to Artifical Intelligence</li>
+                    <li> Introduction to Machine Learning </li>
+                    <li> Linear Algebra </li>
+                    <li> Analysis/Calculus I-III </li>
+                    <li> Statistics and Probability Theory </li>
+                    <li> Discrete Mathematics </li>
+                    <li> Programming in C </li>
+                    <li> Computer Architecture </li>
+                    <li> Circuit and system theory </li>
+                    <li> Strategic Management for Engineers </li>
+                </ul>
+            </div>
+
+        </section>
+
+
+        <!-- Projects Page -->
+        <section class="container column" id="projects">
+            <h1 class="subheading">PROJECTS</h1>
+
+            <!-- Filter Buttons -->
+            <div class="container row" id="buttons">
+                <button class="button active" onclick="filterSelection('all')">All</button>
+                <button class="button" onclick="filterSelection('python')">Python</button>
+                <button class="button" onclick="filterSelection('web')">HTML/CSS</button>
+                <button class="button" onclick="filterSelection('c++')">C++</button>
+            </div>
+
+            <!-- Projects List -->
+            <div class="container row" id="projects-container">
+
+                <div class="project c++">
+                    <div class="project_text container column">
+                        <h2>BME680 Sensor</h2>
+                        <i>C++</i>
+                        <i>See description</i>
+                    <div class="description">
+                        <br />
+                        <br />
+                        <p>
+                            Developed a driver for this temperature, pressure, humidity and gas sensor
+                            as part of my work for the MOVE III satellite (CubeSat). Also implemented all necessary
+                            unit tests using the Google Test framework.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project python">
+                    <div class="project_text container column">
+                        <h2>CommonRoad Search - Motion Planning</h2>
+                        <i>Python</i>
+                        <i>See description</i>
+                    <div class="description">
+                        <br />
+                        <br />
+                        <p>
+                            Implemented an A*-Search method with a custom heuristic function and motion primitives
+                            and ran simulations in order to solve at least 70% of all test scenarios provided.
+                        </p>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="project python">
+                    <div class="project_text container column">
+                        <h2>Spam Filtering</h2>
+                        <i>Python, Jupyter Notebooks</i>
+                        <i>See description</i>
+                    <div class="description">
+                        <br />
+                        <br />
+                        <p>Spam Filtering using Naive Bayes.</p>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="project web">
+                    <div class="project_text container column">
+                        <h2>Personal Website</h2>
+                        <i>HTML, CSS</i>
+                        <i>See description</i>
+                    <div class="description">
+                        <br />
+                        <br />
+                        <p>Made with love.</p>
+                    </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="container column" id="footer">
+            <div class="container row" id="links">
+                <a href="https://www.linkedin.com/in/faidrapatsatzi" target="_blank">LinkedIn</a>
+                &nbsp;&nbsp;<span>-</span>&nbsp;&nbsp;
+                <a href="mailto:faidra.patsatzi@tum.de" target="_blank">Email</a>
+                &nbsp;&nbsp;<span>-</span>&nbsp;&nbsp;
+                <a href="https://github.com/faidrapts" target="_blank">GitHub</a>
+            </div>
+                <div class="container row" id="cr">
+                <p>Made by Faidra Anastasia Patsatzi &copy 2022</p>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>
